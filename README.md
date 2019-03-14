@@ -7,49 +7,64 @@ Given a URL, downloads all images found.
 Quick Start
 -----------
 
-Install from npm with::
+Install from npm with:
 
-  npm install _____
+```
+  npm install imagegrabber
+```
 
-Run from bin script::
+Run from bin script:
 
+```
   imagegrabber https://www.devdungeon.com
   # or
   node_modules/.bin/imagegrabber https://www.devdungeon.com
-
+```
 
 Building from source
 --------------------
 
-Compile with::
+Compile with:
 
+```
   npm run build
   # or
   npm run watch
+```
 
-Clean with::
+Clean with:
 
+```
   npm run clean
+```
 
-Install from source with::
+Install from source with:
 
+```
   npm install ./<dir_name>
+```
 
 To push updates
 ---------------
 First make changes and update version number.
 
-Rebuild files with::
+Rebuild files with:
 
+```
   npm run build
+```
 
-Login to npm::
+Login to npm:
 
+```
   npm login
+```
 
-Push to npm::
+Push to npm:
 
+```
   npm publish
+```
 
 Source code
 -----------
