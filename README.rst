@@ -23,18 +23,33 @@ Building from source
 
 Compile with::
 
-  npm build
+  npm run build
   # or
-  npm watch
+  npm run watch
 
 Clean with::
 
-  npm clean
+  npm run clean
 
 Install from source with::
 
   npm install ./<dir_name>
 
+To push updates
+---------------
+First make changes and update version number.
+
+Rebuild files with::
+
+  npm run build
+
+Login to npm::
+
+  npm login
+
+Push to npm::
+
+  npm publish
 
 Source code
 -----------
