@@ -11,6 +11,10 @@
     "clean": "rm src/*.js bin/*.js",
     "watch": "tsc --watch **/*.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevDungeon/Image-Grabber-TypeScript.git"
+  },
   "author": "NanoDano",
   "license": "MIT"
 }

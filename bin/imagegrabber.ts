@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
-import {hello} from 'imagegrabber'
+import {grabImages} from 'imagegrabber'
 
-hello()
+// Get url from command line arguments
+// print usage if --help or no args passed
+grabImages("https://www.devdungeon.com")
