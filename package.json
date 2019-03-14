@@ -1,6 +1,6 @@
 {
   "name": "imagegrabber",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple example of a typescript package that downloads images from a url",
   "main": "lib/index.js",
   "files": [
