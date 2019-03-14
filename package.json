@@ -2,19 +2,30 @@
   "name": "imagegrabber",
   "version": "1.0.1",
   "description": "Simple example of a typescript package that downloads images from a url",
-  "main": "src/index.js",
+  "main": "lib/index.js",
+  "files": [
+    "bin/*",
+    "lib/**/*"
+  ],
   "bin": {
     "imagegrabber": "bin/imagegrabber.js"
   },
+  "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc src/*.ts bin/*.ts",
-    "clean": "rm src/*.js bin/*.js",
-    "watch": "tsc --watch **/*.ts"
+    "build": "tsc",
+    "clean": "rm lib/*",
+    "watch": "tsc --watch"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/DevDungeon/Image-Grabber-TypeScript.git"
   },
   "author": "NanoDano",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/cheerio": "^0.22.11",
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "typescript": "next"
+  }
 }

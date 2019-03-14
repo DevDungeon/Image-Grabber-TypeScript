@@ -1,3 +1,5 @@
 src/*.js
 bin/*.js
 .vscode
+lib/*
+node_modules
