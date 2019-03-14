@@ -70,6 +70,9 @@ Source code
 -----------
 https://github.com/DevDungeon/Image-Grabber-TypeScript
 
+NPM package
+-----------
+https://www.npmjs.com/package/imagegrabber
 
 Links
 -----
