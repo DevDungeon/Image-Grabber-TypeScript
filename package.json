@@ -1,0 +1,16 @@
+{
+  "name": "imagegrabber",
+  "version": "1.0.1",
+  "description": "Simple example of a typescript package that downloads images from a url",
+  "main": "src/index.js",
+  "bin": {
+    "imagegrabber": "bin/imagegrabber.js"
+  },
+  "scripts": {
+    "build": "tsc src/*.ts bin/*.ts",
+    "clean": "rm src/*.js bin/*.js",
+    "watch": "tsc --watch **/*.ts"
+  },
+  "author": "NanoDano",
+  "license": "MIT"
+}

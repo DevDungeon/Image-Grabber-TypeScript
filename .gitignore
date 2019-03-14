@@ -1,0 +1,3 @@
+src/*.js
+bin/*.js
+.vscode
